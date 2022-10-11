@@ -1,0 +1,34 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 275px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 7px;
+    border: 3px solid rosybrown;
+    border-radius: 3px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.form input {
+    width: 100%;
+    height: 10%;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.submit {
+    height: 15%;
+    width: 80%;
+    font-size: 18px;
+    color: rgb(176, 56, 56);
+    font-family: inherit;
+    font-weight: 600;
+    background-color: rgb(226, 205, 205);
+    cursor: pointer;
+}
